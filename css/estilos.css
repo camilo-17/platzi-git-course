@@ -44,3 +44,9 @@ body {
     background: white;
     padding: 1em;
 }
+
+footer {
+    text-align: center;
+    background-color: #37488b;
+    padding: 0.5em;
+}
