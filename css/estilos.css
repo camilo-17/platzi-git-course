@@ -44,3 +44,33 @@ body {
     background: white;
     padding: 1em;
 }
+
+nav li {
+    /* background-color: white; */
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1em;
+    padding-left: 1em;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav img {
+    width: 20%;
+    vertical-align: middle;
+    padding: 0.4em;
+}
+
+.img-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+ol {}
+
+nav a {
+    text-decoration: none !important;
+    color: black;
+}
