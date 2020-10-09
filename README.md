@@ -216,3 +216,18 @@ git pull upstream master
 git pull upstream master
 git push origin master
 ```
+```html
+<header>
+    <p> Hola Mundo! </p>
+</header>
+```
+```php
+<?php
+echo "$name los esta saludando".
+?>
+```
+```json
+{
+    "key": "value"
+}
+```

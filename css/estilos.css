@@ -79,3 +79,14 @@ footer {
     padding: 0.5em;
     color: white;
 }
+
+.img-hero {
+    display: flex;
+    justify-content: center;
+}
+
+.img-hero img {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0.3em;
+}
