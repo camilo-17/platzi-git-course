@@ -93,3 +93,18 @@ Fusionar las ramas (SIEMPRE SE DEBE HACER EN MASTER).
 git merge cabecera1
 ´´´
 
+
+Hacer una rama de desarrollo
+´´´bash
+git branch cabecera
+´´´
+
+pasar a otra rama
+´´´bash
+git checkout cabecera
+´´´
+
+Volver a master
+´´´bash
+git checkout master
+´´´
