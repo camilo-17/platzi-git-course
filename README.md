@@ -267,3 +267,10 @@ cherry-pick es una mala práctica porque significa que estamos reconstruyendo la
 ```sh
 git cherry-pick 66f8a86
 ```
+
+
+##### Arreglar commits que les falto algo 
+
+* Despues de equivocarse se tiene que hacer el cambio que faltó.
+* Luego git add . para añadir los cambios a staging.
+* ```sh git commit --amend ``` para pegar los cambios al commit anterior
