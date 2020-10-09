@@ -248,3 +248,12 @@ git branch -D experimento
 
 ### Stash 
 
+Para hacer un stash
+```sh
+git stash
+```
+
+Para recuperar los cabmios
+```sh
+git stash pop
+```
