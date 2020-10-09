@@ -231,3 +231,17 @@ echo "$name los esta saludando".
     "key": "value"
 }
 ```
+
+Hacer un rebase estando en experimento (***SIEMPRE PRIMERO EN LA RAMA EXPERIMENTAL***)
+
+```sh
+git rebase master
+git checkout master
+git rebase experimento
+```
+
+Borrar ramas
+
+```sh
+git branch -D experimento
+```
