@@ -245,3 +245,6 @@ Borrar ramas
 ```sh
 git branch -D experimento
 ```
+
+### Stash 
+
