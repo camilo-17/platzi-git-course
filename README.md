@@ -83,3 +83,18 @@ git log – index.html- Busca los commits en un archivo en específico.
 git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
 git log > log.txt - guardar los logs en un archivo txt
 
+
+Hacer una rama de desarrollo
+´´´bash
+git branch cabecera
+´´´
+
+pasar a otra rama
+´´´bash
+git checkout cabecera
+´´´
+
+Volver a master
+´´´bash
+git checkout master
+´´´
