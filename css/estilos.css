@@ -9,7 +9,7 @@ body {
 }
 
 #cabecera {
-    background: #37488b;
+    background: red;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
     color: white;
     font-weight: bold;
@@ -75,9 +75,9 @@ nav a {
 
 footer {
     text-align: center;
-    background-color: #37488b;
+    background-color: red;
     padding: 0.5em;
-    color: white;
+    color: rgb(121, 62, 62);
 }
 
 .img-hero {
