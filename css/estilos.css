@@ -9,7 +9,7 @@ body {
 }
 
 #cabecera {
-    background: red;
+    background: #DE2617;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
     color: white;
     font-weight: bold;
@@ -75,7 +75,7 @@ nav a {
 
 footer {
     text-align: center;
-    background-color: red;
+    background-color: #DE2617;
     padding: 0.5em;
     color: rgb(121, 62, 62);
 }
