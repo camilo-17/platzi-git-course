@@ -8,7 +8,6 @@ Para añadir a staging
 git add 
 ```
 para remover archivos de staging:
-
 ```sh
 git rm archivo.txt 
 ```
@@ -57,14 +56,11 @@ Para ver en resumen las lineas cambiadas en el log
 git log --stat 
 ```
 Para ver como era el proyecto antes 
-
 ```sh
 git checkout 1234
-
 git checkout 1234 historia.txt
 ```
 Para volver a master (Los cabmios actuales, ultimo commit)
-
 ```sh
 git checkout master
 git checkout master historia.txt
@@ -94,7 +90,6 @@ Ver las ramas existentes
 git branch
 ```
 Fusionar las ramas (SIEMPRE SE DEBE HACER EN MASTER).
-
 ```sh
 git merge cabecera1
 ```
@@ -130,7 +125,16 @@ Crear un tag:
 git tag -a v0.1 -m "resultado"
 ```
 Mostrar tags
-
 ```sh 
 git show-ref --tags
+```
+
+Enviar tag
+```sh 
+git push origin --tags
+```
+
+log de ramas
+```sh 
+git show-branch --all
 ```
