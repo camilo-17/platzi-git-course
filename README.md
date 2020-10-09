@@ -1,120 +1,131 @@
+# Curso de git y github
+
+Este curso enseña como manejar git y git hub pongo aca los comandos que aprendi 
+
+
 Para añadir a staging
-´´´bash
+```sh
 git add 
-´´´
+```
 para remover archivos de staging:
 
-´´´bash
+```sh
 git rm archivo.txt 
-´´´
+```
 
 Para enviar al commit 
-´´´bash
+```sh
 git commit -m "comentario" 
-´´´
+```
 
 para traer los cambios 
-´´´bash
+```sh
 git checkout 
-´´´
+```
 
 Acceder a la configuración 
-´´´bash
+```sh
 git config list 
-´´´
+```
 
 Cambiar variables de configuracion
-´´´bash
+```sh
 git config --global name.user "Camilo"
-´´´
+```
 Para ver los cambios realizados entre commit
-´´´bash
+```sh
 git show
 
 git show historia.txt
-´´´
+```
 
 Para comparar dos commit
-´´´bash
+```sh
 git diff 1234 3211
-´´´
+```
 
 Para volver a la version anterior
-´´´bash
+```sh
 git reset
-´´´
+```
 Para volver a la version anterior sin perder los archivos en staging
-´´´bash
+```sh
 git reset 1234 --soft
-´´´
+```
 Para ver en resumen las lineas cambiadas en el log
-´´´bash
+```sh
 git log --stat 
-´´´
+```
 Para ver como era el proyecto antes 
 
-´´´bash
+```sh
 git checkout 1234
 
 git checkout 1234 historia.txt
-´´´
+```
 Para volver a master (Los cabmios actuales, ultimo commit)
 
-´´´bash
+```sh
 git checkout master
 git checkout master historia.txt
-´´´
+```
 
-git log --oneline - Te muestra el id commit y el título del commit.
-git log --decorate- Te muestra donde se encuentra el head point en el log.
-git log --stat - Explica el número de líneas que se cambiaron brevemente.
-git log -p- Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
-git shortlog - Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
-git log --graph --oneline --decorate y
-git log --pretty=format:"%cn hizo un commit %h el dia %cd" - Muestra mensajes personalizados de los commits.
-git log -3 - Limitamos el número de commits.
-git log --after=“2018-1-2” ,
-git log --after=“today” y
-git log --after=“2018-1-2” --before=“today” - Commits para localizar por fechas.
-git log --author=“Name Author” - Commits realizados por autor que cumplan exactamente con el nombre.
-git log --grep=“INVIE” - Busca los commits que cumplan tal cual está escrito entre las comillas.
-git log --grep=“INVIE” –i- Busca los commits que cumplan sin importar mayúsculas o minúsculas.
-git log – index.html- Busca los commits en un archivo en específico.
-git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
-git log > log.txt - guardar los logs en un archivo txt
+* git log --oneline - Te muestra el id commit y el título del commit.
+* git log --decorate- Te muestra donde se encuentra el head point en el log.
+* git log --stat - Explica el número de líneas que se cambiaron brevemente.
+* git log -p- Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
+* git shortlog - Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
+* git log --graph --oneline --decorate y
+* git log --pretty=format:"%cn hizo un commit %h el dia %cd" - Muestra mensajes personalizados de los commits.
+* git log -3 - Limitamos el número de commits.
+* git log --after=“2018-1-2” ,
+* git log --after=“today” y
+* git log --after=“2018-1-2” --before=“today” - Commits para localizar por fechas.
+* git log --author=“Name Author” - Commits realizados por autor que cumplan exactamente con el nombre.
+* git log --grep=“INVIE” - Busca los commits que cumplan tal cual está escrito entre las comillas.
+* git log --grep=“INVIE” –i- Busca los commits que cumplan sin importar mayúsculas o minúsculas.
+* git log – index.html- Busca los commits en un archivo en específico.
+* git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
+* git log > log.txt - guardar los logs en un archivo txt
+
 
 Ver las ramas existentes
-´´´bash
+```sh
 git branch
-´´´
+```
 Fusionar las ramas (SIEMPRE SE DEBE HACER EN MASTER).
 
-´´´bash
+```sh
 git merge cabecera1
-´´´
+```
 
 
 Hacer una rama de desarrollo
-´´´bash
+```sh
 git branch cabecera
-´´´
+```
 
 pasar a otra rama
-´´´bash
+```sh
 git checkout cabecera
-´´´
+```
 
 Volver a master
-´´´bash
+```sh
 git checkout master
-´´´
+```
 
 cambiar la URL del repo
-´´´bash 
+```sh 
 git remote set-url origin git@github.com:camilo-17
-´´´
+```
 
 ver a que URL le ha apuntado
-´´´bash 
+```sh 
 git remote -v
-´´´
+```
+
+Crear un tag:
+```sh 
+git tag -a v0.1 -m "resultado"
+```
