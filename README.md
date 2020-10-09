@@ -108,3 +108,13 @@ Volver a master
 ´´´bash
 git checkout master
 ´´´
+
+cambiar la URL del repo
+´´´bash 
+git remote set-url origin git@github.com:camilo-17
+´´´
+
+ver a que URL le ha apuntado
+´´´bash 
+git remote -v
+´´´
