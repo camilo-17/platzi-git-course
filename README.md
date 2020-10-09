@@ -257,3 +257,13 @@ Para recuperar los cabmios
 ```sh
 git stash pop
 ```
+
+#### Cherry-pick traer commits viejos al head de un branch
+
+Existe un mundo alternativo en el cual vamos avanzando en una rama pero necesitamos en master uno de esos avances de la rama, para eso utilizamos el comando git cherry-pick IDCommit.
+
+cherry-pick es una mala práctica porque significa que estamos reconstruyendo la historia, usa cherry-pick con sabiduría. Si no sabes lo que estás haciendo ten mucho cuidado.
+
+```sh
+git cherry-pick 66f8a86
+```
